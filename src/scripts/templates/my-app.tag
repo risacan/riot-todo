@@ -1,8 +1,11 @@
 require('../atoms/app-name.tag');
 require("../organisms/my-card.tag");
+require("../atoms/sns-count-facebook.tag");
+require("../organisms/starwars-list.tag")
 
 <app>
   <app-name first="Hello" last="World"></app-name>
   <app-name first="Ola" last="Mundo"></app-name>
-  <my-card image="/Users/a21032270/risacan/riot-todo/src/images/knit-pattern.jpg"></my-card>
+  <!--<my-card image="/Users/a21032270/risacan/riot-todo/src/images/knit-pattern.jpg"></my-card>-->
+  <starwars-list></starwars-list>
 </app>
