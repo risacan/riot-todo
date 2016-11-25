@@ -23,6 +23,10 @@ module.exports = {
         test: /\.js$|\.tag$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.tag.html$/,
+        loader: 'tag'
       }
     ]
   },
