@@ -26,12 +26,17 @@ module.exports = {
       },
       {
         test: /\.tag.html$/,
+        exclude: /node_modules/,
         loader: 'tag'
+      },
+      {
+        test: /\.less$/,
+        loader: "style-loader!css-loader!less-loader"
       }
     ]
   },
   resolve: {
-      extensions: ['', '.js', '.tag']
+      extensions: ['', '.js', '.tag', ".html"]
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),

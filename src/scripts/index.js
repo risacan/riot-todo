@@ -1,5 +1,4 @@
-require('./templates/my-app.tag');
-
+require('./templates/my-app.tag.html');
 riot.mount('*');
 riot.mount( 'starwars-yeah', {
     items : [
