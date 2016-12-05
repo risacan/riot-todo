@@ -5,7 +5,7 @@
 
     var self = this
 
-    fetch( 'https://swapi.co/api/' + opts.url )
+    fetch( 'https://swapi.co/api/' + opts.url + "?format=json" )
     .then( function ( data ) {
         return data.json()
     } )
