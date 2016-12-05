@@ -23,11 +23,17 @@
     "less-loader": "^2.2.3",
     "riot": "^2.4.1",
     "tag": "^0.3.0",
-    "tag-loader": "^0.3.0"
+    "tag-loader": "^0.3.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-riot": "^1.0.0"
   },
   "scripts": {
     "webpack": "webpack -w",
     "lite": "lite-server",
-    "start": "concurrently \"npm run lite\" \"npm run webpack\""
+    "start": "concurrently \"npm run lite\" \"npm run webpack\"",
+    "test": "karma start"
   }
 }

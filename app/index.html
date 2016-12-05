@@ -6,11 +6,13 @@
     <script src="https://cdn.jsdelivr.net/riot/3.0.1/riot+compiler.min.js"></script>
   </head>
   <body>
-    <my-app></my-app>
+    <app-name></app-name>
+    <!--<my-app></my-app>-->
+    <!--<starwars-character></starwars-character>-->
     <!-- riot tags -->
+    <script src="https://cdn.jsdelivr.net/riot/3.0.1/riot+compiler.min.js"></script>
     <script type="riot/tag" src="./scripts/bundle.js"></script>
-    <!-- scripts we need -->
-    <!-- mount this app -->
+    <script src="../src/scripts/atoms/app-name.tag" type="riot/tag"></script>
     <script> riot.mount('*') </script>
   </body>
 </html>
