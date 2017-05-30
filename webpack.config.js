@@ -31,7 +31,7 @@ module.exports = {
     ]
   },
   resolve: {
-      extensions: ['', '.js', '.tag']
+      extensions: ['', '.js', '.tag', ".html"]
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),

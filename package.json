@@ -14,6 +14,7 @@
     "concurrently": "^2.1.0",
     "lite-server": "^2.2.0",
     "riotjs-loader": "^3.0.0",
+    "tag-loader": "^0.3.0",
     "webpack": "^1.13.0"
   },
   "dependencies": {
